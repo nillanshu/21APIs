@@ -8,7 +8,7 @@ const Testimonials: React.FC = () => {
       company: 'Founder, GreenLeaf Organics',
       image: 'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=300',
       rating: 5,
-      text: 'CodeSpark delivered our e-commerce website in just 5 days! The quality exceeded our expectations and our online sales have tripled since launch.'
+      text: '21API team delivered our e-commerce website in just 5 days! The quality exceeded our expectations and our online sales have tripled since launch.'
     },
     {
       name: 'Rajesh Kumar',

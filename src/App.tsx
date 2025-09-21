@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 function App() {
   useEffect(() => {
     // Update document title for SEO
-    document.title = 'CodeSpark Agency - Fast, Affordable, Scalable Web Solutions';
+    document.title = '21API - Fast, Affordable, Scalable Web Solutions';
     
     // Add meta description for SEO
     const metaDescription = document.createElement('meta');

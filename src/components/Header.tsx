@@ -22,10 +22,8 @@ const Header: React.FC = () => {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-2">
-            <div className="bg-gradient-to-r from-blue-600 to-orange-500 p-2 rounded-lg">
-              <Code className="h-6 w-6 text-white" />
-            </div>
-            <span className="text-xl font-bold text-gray-900">CodeSpark Agency</span>
+            <img src="/img/21API_Modular_Grid_Option3.png" alt="21API Logo" className="h-12 w-30" />
+            <img src="/img/21API_Monoline_Loop_Option1.jpg" alt="21API Logo" className="h-8 w-30" />
           </div>
 
           {/* Desktop Navigation */}

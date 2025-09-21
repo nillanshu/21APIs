@@ -26,8 +26,8 @@ const Contact: React.FC = () => {
     }));
   };
 
-  const whatsappMessage = `Hi CodeSpark Agency! I'm interested in discussing a web development project. My name is ${formData.name} and here are the details: ${formData.projectDetails}`;
-  const whatsappLink = `https://wa.me/919876543210?text=${encodeURIComponent(whatsappMessage)}`;
+  const whatsappMessage = `Hi 21API! I'm interested in discussing a web development project. My name is ${formData.name} and here are the details: ${formData.projectDetails}`;
+  const whatsappLink = `https://wa.me/9024078753?text=${encodeURIComponent(whatsappMessage)}`;
 
   return (
     <section id="contact" className="py-20 bg-white">
@@ -124,7 +124,7 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900">Email Us</h4>
-                  <p className="text-gray-600">hello@codespark.agency</p>
+                  <p className="text-gray-600">kcac619@gmail.com</p>
                 </div>
               </div>
               
@@ -134,7 +134,7 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900">Call Us</h4>
-                  <p className="text-gray-600">+91 98765 43210</p>
+                  <p className="text-gray-600">+91 90240 78753</p>
                 </div>
               </div>
               
@@ -151,7 +151,7 @@ const Contact: React.FC = () => {
             
             <div className="space-y-4">
               <a
-                href={`mailto:hello@codespark.agency?subject=Project Inquiry&body=Hi CodeSpark Agency, I'm interested in discussing a web development project.%0D%0A%0D%0AProject Details:%0D%0A${encodeURIComponent(formData.projectDetails)}`}
+                href={`mailto:kcac619@gmail.com?subject=Project Inquiry&body=Hi 21API, I'm interested in discussing a web development project.%0D%0A%0D%0AProject Details:%0D%0A${encodeURIComponent(formData.projectDetails)}`}
                 className="w-full bg-gradient-to-r from-gray-100 to-gray-200 hover:from-blue-600 hover:to-blue-700 text-gray-700 hover:text-white px-6 py-3 rounded-lg font-medium transition-all duration-200 flex items-center justify-center border"
               >
                 <Mail className="mr-2 h-5 w-5" />
